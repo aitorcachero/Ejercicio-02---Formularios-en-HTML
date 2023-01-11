@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<body>
+    <form action="/">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0" max="150" required>
+        </div>
+        <br>
+        <div>
+            <label for="frase">Frase favorita</label>
+            <textarea name="frase" id="frase" cols="30" rows="10"></textarea>
+        </div>  
+        <br>
+        <button type="sumbit">Enviar</button>
+        <button type="reset">Borrar campos</button>     
+    </form>    
+</body>
+</html>
